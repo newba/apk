@@ -1,0 +1,110 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="br.com.darksite.tictactoe.MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:tag="carre1"
+                android:layout_width="122dp"
+                android:layout_height="122dp"
+                android:onClick="clickCarre"
+                android:enabled="false"
+                android:paddingBottom="10dp"
+                 />
+            <Button
+                android:tag="carre2"
+                android:layout_width="122dp"
+                android:layout_height="122dp"
+                android:onClick="clickCarre"
+                android:enabled="false"
+                />
+            <Button
+                android:tag="carre3"
+                android:layout_width="122dp"
+                android:layout_height="122dp"
+                android:onClick="clickCarre"
+                android:enabled="false"
+                 />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:tag="carre4"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:onClick="clickCarre"
+            android:enabled="false"
+             />
+        <Button
+            android:tag="carre5"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:onClick="clickCarre"
+            android:enabled="false"
+             />
+        <Button
+            android:tag="carre6"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:onClick="clickCarre"
+            android:enabled="false"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:tag="carre7"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:onClick="clickCarre"
+            android:enabled="false"
+             />
+        <Button
+            android:tag="carre8"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:onClick="clickCarre"
+            android:enabled="false"
+             />
+        <Button
+            android:tag="carre9"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:onClick="clickCarre"
+            android:enabled="false"
+             />
+
+    </LinearLayout>
+
+    <Button
+
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:onClick="newGame"/>
+
+
+</LinearLayout>
+
+
+
