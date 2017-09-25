@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Repeater</string>
+    <string name="lbl_ok">Ok</string>
+    <string name="lbl_fechar">Fechar</string>
+</resources>
