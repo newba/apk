@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+//we need to extends ListActivity
 public class MainActivity extends ListActivity {
     ListView listView;
 
@@ -16,6 +17,7 @@ public class MainActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+		//build one string
         String[] values = new String[] { "Marcelo", "Elisia", "Isabella", "Geovanna", "Au Au da Isabella",
                 "Au Au da Geovanna",
                 "Vovó Wanda",
@@ -39,9 +41,11 @@ public class MainActivity extends ListActivity {
                 "Vinicius"
 
         };
-
+		
+		//use the Adapter
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, values);
 
+		//set our list
         setListAdapter(adapter);
     }
 
