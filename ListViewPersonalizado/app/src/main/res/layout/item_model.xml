@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Capital do Triângulo Mineiro"
-        android:id="@+id/lblDescrição"
+        android:id="@+id/lblDescricao"
         android:textColor="@android:color/darker_gray"
         android:layout_below="@+id/lblCidade"
         android:layout_toRightOf="@+id/imgCidade"
