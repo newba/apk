@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.darksite.guardardadossimples.MainActivity">
+
+    <EditText
+        android:id="@+id/txtNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Nom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtQtte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtNom"
+        android:layout_below="@+id/txtNom"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Quantité"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtQtte"
+        android:layout_below="@+id/txtQtte"
+        android:layout_marginTop="24dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSave"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/btnSave"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/btnAfficher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnClear"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/btnClear"
+        android:text="Afficher" />
+</RelativeLayout>
