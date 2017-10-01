@@ -2,8 +2,11 @@ package br.com.darksite.newlistview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -21,8 +24,18 @@ public class MainActivity extends AppCompatActivity {
         ListView lista = (ListView)findViewById(R.id.lvCursos);
         ArrayAdapter adapter = new CursoAdapter(this, adicionaCursos());
         lista.setAdapter(adapter);
-    }
 
+        // programando um Toast de mensagem quando um item for clicado
+     //   lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+      //      @Override
+      //      public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+      //          Toast.makeText(getBaseContext(), "Item Clicado", Toast.LENGTH_SHORT).show();
+
+     //       }
+     //   });
+
+    }
 
     // cria um conjunto de cursos e retorna um arraylist
     private ArrayList<Curso> adicionaCursos() {
