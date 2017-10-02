@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.darksite.listeepicerie.AddProduit">
+
+    <EditText
+        android:id="@+id/edtNomProduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="nom du produit"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtQttProduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtNomProduit"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="quantité du produit"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtPrixProduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtQttProduit"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtPrixProduit"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="30dp"
+        android:text="Edit"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnEdit"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/btnEdit"
+        android:text="Delete"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnDelete"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/btnDelete"
+        android:text="Home" />
+</RelativeLayout>

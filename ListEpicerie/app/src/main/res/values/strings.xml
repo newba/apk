@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">List Epicerie</string>
+    <string name="about">About</string>
+    <string name="newproduct">New Product</string>
+    <string name="version">Version</string>
+    <string name="contact">Contact</string>
+</resources>
